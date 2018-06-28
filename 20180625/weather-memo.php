@@ -8,8 +8,8 @@
 </head>
 <body>
   <?php
-  // 東京の天気を表すRSS
-  $weather_rss = "http://weather.livedoor.com/forecast/rss/13/63.xml";
+  // 水戸の天気を表すRSS
+  $weather_rss = "http://weather.livedoor.com/forecast/rss/area/080010.xml";
   // 天気予報をメモしておくファイル
   $savefile = "comment.log";
   // 処理を分ける
