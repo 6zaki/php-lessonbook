@@ -15,7 +15,7 @@
     );
     $hash = password_hash($users, PASSWORD_DEFAULT);
     $script = $_SERVER["SCRIPT_NAME"];//このphpのパス
-    $savefile = dirname(__FILE__).'./log.txt';
+    $savefile = dirname(__FILE__).'/log.txt';
     //セッションを開始する
     session_start();
     //----------------------
@@ -84,7 +84,7 @@ EOF;
     }
     //ログの表示
     function show_log() {
-      global $script, $savefaile;
+      global $script, $savefile;
       //メニューの表示
       $user = $_SESSION["login"]["user"];
       echo "<h1>こんにちは、{$user}さん！</h1>";
@@ -120,7 +120,7 @@ EOF;
         exit;
       }
       $log = array();
-      if(file_exits($savefile)) {
+      if(file_exists($savefile)) {
         $log = unserialize(file_get_contents($savefile));
       }
       $log[] = array(

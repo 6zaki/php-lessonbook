@@ -1,0 +1,1 @@
+a:4:{i:0;a:2:{s:4:"name";s:7:"takeshi";s:4:"body";s:12:"おなすい";}i:1;a:2:{s:4:"name";s:7:"takeshi";s:4:"body";s:12:"やっほー";}i:2;a:2:{s:4:"name";s:7:"takeshi";s:4:"body";s:12:"パンダ！";}i:3;a:2:{s:4:"name";s:5:"akiko";s:4:"body";s:12:"パンダ！";}}
